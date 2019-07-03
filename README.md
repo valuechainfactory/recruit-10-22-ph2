@@ -28,7 +28,6 @@ Both the retailer and the warehouse can see pending and processed reorders.
 - Provide the command necessary to run your tests
 - Create a private repository on GitHub and add [info@valuechainfactory.com](mailto:info@valuechainfactory.com) as a colaborator
 - Push your code to that repoitory in as many commits as neccessary - preferably more than one.
-- Create a pull request to master once completed
 - Host the solution on [Heroku](https://www.heroku.com/) or an alternative hosting provider and share the link in the section below.
 
 ### Languages allowed
