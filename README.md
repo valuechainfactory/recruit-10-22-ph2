@@ -26,7 +26,7 @@ Both the retailer and the warehouse can see pending and processed reorders.
 	  Ensure there are some products without orders  
 	  *Hint: Take a look at window functions partitioning by product id*  
 	- Order Number of currently unfulfilled order. N/A if none.  
-    To generate an order number, pad the order id with leading 0s to make a string of a minimum of 6 characters, e.g “000001”, “000002” for order ids 1 and 2.
+    To generate an order number, pad the order id with leading 0s to make a string of a minimum of 6 characters, e.g `000001`, `000002` for order ids 1 and 2.
 - When inventory hits the predefined reorder level, create an automated reorder in an unprocessed state.
 - The store actor should have a view to see unprocessed and processed reorders.
 - The store actor should be able to update the quantity of an order and also to delete it completely.
